@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(180, 206, 255);
+}
+
+h1
+{
+    color:rgb(255, 255, 255)
+}
+
+.texto {
+    color: white;
+    font-size: 50px;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #5b7c9b;
+}
+
+.quote {
+    color: white;
+    font-size: 90px;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #5b7c9b;
+}
+
+
+.fade-in-text {
+    display: inline-block;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
